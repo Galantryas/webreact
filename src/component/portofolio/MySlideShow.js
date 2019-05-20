@@ -6,40 +6,40 @@ import './MySlideShow.scss';
 class MySlideShow extends React.Component{
     render(){
         return(
-            
+
 <div class="untitled">
 	<div class="untitled__slides">
 		<div class="untitled__slide">
 			<div class="untitled__slideBg"></div>
 			<div class="untitled__slideContent">
-				<span>London</span> 
-				<span>Scout</span>
-				<a class="button" href="https://unsplash.com/@scoutthecity" target="/black">Unsplash Profile</a>
+				<span>Fantasia</span>
+				<span>Login Page</span>
+				<a class="button" href="https://hmp.me/ck6x" target="/black">Check Out</a>
 			</div>
 		</div>
 		<div class="untitled__slide">
 			<div class="untitled__slideBg"></div>
 			<div class="untitled__slideContent">
-				
-				<span>Vladimir</span> 
-				<span>Kudinov</span>
-				<a class="button" href="https://unsplash.com/@madbyte" target="/black">Unsplash Profile</a>
+
+				<span>Fantasia</span>
+				<span>Home Page</span>
+				<a class="button" href="https://hmp.me/ck6y" target="/black">Check Out</a>
 			</div>
 		</div>
 		<div class="untitled__slide">
 			<div class="untitled__slideBg"></div>
 			<div class="untitled__slideContent">
-				<span>Macio</span> 
-				<span>Amorim</span>
-				<a class="button" href="https://unsplash.com/@maicoamorim" target="/black">Unsplash Profile</a>
+				<span>SmartEco</span>
+				<span>Bar Chart</span>
+				<a class="button" href="https://hmp.me/ck6z" target="/black">Check Out</a>
 			</div>
 		</div>
 		<div class="untitled__slide">
 			<div class="untitled__slideBg"></div>
 			<div class="untitled__slideContent">
-				<span>Mario</span> 
-				<span>Calvo</span>
-				<a class="button" href="https://unsplash.com/@mariocalvo" target="/black">Unsplash Profile</a>
+				<span>SmartEco</span>
+				<span>Pie Chart</span>
+				<a class="button" href="https://hmp.me/ck60" target="/black">Check Out</a>
 			</div>
 		</div>
 	</div>

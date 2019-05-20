@@ -7,14 +7,14 @@ $color: hsl(15,75%,40%);
 $font: 'Abril Fatface', sans-serif;
 
 $slides: 4;
-$images: url(https://unsplash.it/g/1500/2200?image=838) url(https://unsplash.it/g/1500/1000?image=1078) url(https://unsplash.it/g/1500/1000?image=1077)  url(https://unsplash.it/g/1500/1200?image=345);
+$images: url(https://hmp.me/ck6x) url(https://hmp.me/ck6y) url(https://hmp.me/ck6z)  url(https://hmp.me/ck60);
 
 html, body{
 	width: 100vw;
 	height: 100vh;
 }
 
-.untitled{	
+.untitled{
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -31,7 +31,7 @@ html, body{
 	}
 	animation: rotateHue infinite $t*$slides*2 linear;
 	animation-delay: $t/4;
-	
+
 	&__shutters{
 		position: absolute;
 		height: 150vmax;
@@ -77,7 +77,7 @@ html, body{
 			animation: openBottom $t*2 infinite;
 		}
 	}
-	
+
 	&__slides{
 		position: absolute;
 		height: 100%;
@@ -93,7 +93,7 @@ html, body{
 		opacity: 0;
 		@keyframes showHideSlide{
 			0%{
-				opacity: 1; 
+				opacity: 1;
 				pointer-events: auto;
 				z-index: 1;
 			}
@@ -110,12 +110,12 @@ html, body{
 		}
 		animation: showHideSlide infinite $t*$slides*2 steps(1);
 		@for $i from 1 through $slides{
-			&:nth-child(#{$i}){ 
+			&:nth-child(#{$i}){
 				animation-delay: $t * ($i - 1) * 2;
 				.untitled__slideBg{
 					background-image: nth($images, $i);
 				}
-			}	
+			}
 		}
 	}
 	&__slideBg{
@@ -137,7 +137,7 @@ html, body{
 			66%{ transform: rotate(0deg); animation-timing-function: cubic-bezier(0.895, 0.030, 0.685, 0.220); }
 			100%{ transform: rotate(45deg) scale(0.9);}
 		}
-		animation: bgInOut $t*4 -$t*2 infinite; 
+		animation: bgInOut $t*4 -$t*2 infinite;
 	}
 	&__slideContent{
 		position: absolute;
@@ -154,7 +154,7 @@ html, body{
 		mix-blend-mode: lighten;
 		span{
 			display: block;
-			font-size: 15vmin;
+			font-size: 8vmin;
 		}
 	}
 }
@@ -178,16 +178,14 @@ html, body{
 	line-height: 1;
 	transform: translate3d(0.5vmin, -0.5vmin, 0);
 	transition: all 100ms linear;
-	&:hover{ 
+	&:hover{
 		transform: translate3d(1vmin, -1vmin, 0);
 		box-shadow: -1vmin 1vmin 0 rgba(white, 0.5);
 		background: white;
 		color: black;
 	}
-	&:active{ 
+	&:active{
 		transform: translate3d(0px, 0px, 0);
 		box-shadow: -0px 0px 0 rgba(white, 0.5);
 	}
 }
-
-

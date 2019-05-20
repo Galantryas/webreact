@@ -23,7 +23,7 @@ class Portofolio extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://my-json-server.typicode.com/Galantryas/apiportofolio/portofolio')
+        axios.get('https://my-json-server.typicode.com/Galantryas/apiportofolio/portofolio')
             .then(res => {
                 const portofolio = res.data;
                 this.setState({ portofolio });
