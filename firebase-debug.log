@@ -1,0 +1,104 @@
+[debug] [2019-05-20T09:22:40.148Z] ----------------------------------------------------------------------
+[debug] [2019-05-20T09:22:40.152Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2019-05-20T09:22:40.152Z] CLI Version:   6.10.0
+[debug] [2019-05-20T09:22:40.152Z] Platform:      win32
+[debug] [2019-05-20T09:22:40.152Z] Node Version:  v10.15.3
+[debug] [2019-05-20T09:22:40.153Z] Time:          Mon May 20 2019 16:22:40 GMT+0700 (Indochina Time)
+[debug] [2019-05-20T09:22:40.153Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=427153284&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-05-20T09:22:50.329Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-05-20T09:22:50.757Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:189:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:189:13)
+[debug] [2019-05-20T09:25:30.379Z] ----------------------------------------------------------------------
+[debug] [2019-05-20T09:25:30.382Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2019-05-20T09:25:30.382Z] CLI Version:   6.10.0
+[debug] [2019-05-20T09:25:30.382Z] Platform:      win32
+[debug] [2019-05-20T09:25:30.382Z] Node Version:  v10.15.3
+[debug] [2019-05-20T09:25:30.383Z] Time:          Mon May 20 2019 16:25:30 GMT+0700 (Indochina Time)
+[debug] [2019-05-20T09:25:30.383Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1046159631&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-05-20T09:25:40.150Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-05-20T09:25:40.519Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:189:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:189:13)
+[debug] [2019-05-20T09:28:37.943Z] ----------------------------------------------------------------------
+[debug] [2019-05-20T09:28:37.945Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2019-05-20T09:28:37.945Z] CLI Version:   6.10.0
+[debug] [2019-05-20T09:28:37.945Z] Platform:      win32
+[debug] [2019-05-20T09:28:37.945Z] Node Version:  v10.15.3
+[debug] [2019-05-20T09:28:37.946Z] Time:          Mon May 20 2019 16:28:37 GMT+0700 (Indochina Time)
+[debug] [2019-05-20T09:28:37.946Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=476958440&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-05-20T09:28:46.681Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-05-20T09:28:46.979Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:189:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:189:13)
+[debug] [2019-05-20T09:37:31.896Z] ----------------------------------------------------------------------
+[debug] [2019-05-20T09:37:32.079Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2019-05-20T09:37:32.079Z] CLI Version:   6.10.0
+[debug] [2019-05-20T09:37:32.079Z] Platform:      win32
+[debug] [2019-05-20T09:37:32.079Z] Node Version:  v10.15.3
+[debug] [2019-05-20T09:37:33.520Z] Time:          Mon May 20 2019 16:37:32 GMT+0700 (Indochina Time)
+[debug] [2019-05-20T09:37:33.520Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=763581249&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-05-20T09:38:01.380Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-05-20T09:38:01.816Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\Galant\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:189:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:189:13)
